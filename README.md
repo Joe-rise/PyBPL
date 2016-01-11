@@ -4,6 +4,8 @@ Bayesian Program Learning toolkit in Python
 ###Purpose
 This project is intended to build BPL into highly reusable Python modules, for the purpose of expiermentation and eventual in production systems. The idea is to encourage discussion and experimentation around BPL and BPL-inspired variants, and to explore this class of models in production settings.
 
+Please see the [wiki](https://github.com/MaxwellRebo/PyBPL/wiki) for details.
+
 ####Original Repo & Paper
 The original BPL Matlab repo is here: https://github.com/brendenlake/BPL
 
