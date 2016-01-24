@@ -10,6 +10,7 @@ Please see the [wiki](https://github.com/MaxwellRebo/PyBPL/wiki) for details.
 
 ###Dependencies
 numpy
+nose
 
 Do:
 
@@ -17,17 +18,22 @@ Do:
 pip install -r requirements.txt
 ```
 
-####Original Repo & Paper
+###Testing
+
+Do:
+```
+nosetests
+```
+
+###Original Repo & Paper
 The original BPL Matlab repo is here: https://github.com/brendenlake/BPL
 
 The original BPL paper can be found on Science:
 
 [Lake, B. M., Salakhutdinov, R., and Tenenbaum, J. B. (2015). Human-level concept learning through probabilistic program induction](http://www.sciencemag.org/content/350/6266/1332.abstract). Science, 350(6266), 1332-1338.
 
-####TODOs
--Base class
--Tests for base class
--Handwriting version (from paper - possibly transpile?)
--Tests for handwriting version, mirroring tests from Matlab implementation
+###TODOs
+-Base BPL class, with tests
+-Base parser class (for learning primitives), with tests
 -Data formatters (text, time series, etc)
 -Helper methods and utility classes as needed
