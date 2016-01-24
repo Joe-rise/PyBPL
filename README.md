@@ -8,6 +8,11 @@ The idea is to encourage discussion and experimentation around BPL and BPL-inspi
 
 Please see the [wiki](https://github.com/MaxwellRebo/PyBPL/wiki) for details.
 
+**What PyBPL is**: A framework for developing BPL variants from a *generalized* form of the BPL algortithm. See [this wiki entry](https://github.com/MaxwellRebo/PyBPL/wiki/Generalizing-BPL) for more info.
+
+**What PyBPL is not**: A faithful implementation of the BPL as applied to the handwriting use case. To run the Matlab tests for handwriting, get the [original repository](https://github.com/brendenlake/BPL) and run the code as described there.
+
+
 ###Dependencies
 numpy
 nose
@@ -32,8 +37,11 @@ The original BPL paper can be found on Science:
 
 [Lake, B. M., Salakhutdinov, R., and Tenenbaum, J. B. (2015). Human-level concept learning through probabilistic program induction](http://www.sciencemag.org/content/350/6266/1332.abstract). Science, 350(6266), 1332-1338.
 
+
 ###TODOs
 -Base BPL class, with tests
 -Base parser class (for learning primitives), with tests
+-Tests for base class
 -Data formatters (text, time series, etc)
+
 -Helper methods and utility classes as needed
