@@ -31,8 +31,9 @@ The original BPL paper can be found on Science:
 
 ####TODOs
 -Base class
+
 -Tests for base class
--Handwriting version (from paper - possibly transpile?)
--Tests for handwriting version, mirroring tests from Matlab implementation
+
 -Data formatters (text, time series, etc)
+
 -Helper methods and utility classes as needed
