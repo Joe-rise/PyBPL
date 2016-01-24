@@ -8,7 +8,7 @@ The idea is to encourage discussion and experimentation around BPL and BPL-inspi
 
 Please see the [wiki](https://github.com/MaxwellRebo/PyBPL/wiki) for details.
 
-**What PyBPL is**: A framework for developing BPL variants from a *generalized* form of the BPL algortithm. See [this wiki entry](https://github.com/MaxwellRebo/PyBPL/wiki/Generalizing-the-BPL) for more info.
+**What PyBPL is**: A framework for developing BPL variants from a *generalized* form of the BPL algortithm. See [this wiki entry](https://github.com/MaxwellRebo/PyBPL/wiki/Generalizing-BPL) for more info.
 
 **What PyBPL is not**: A faithful implementation of the BPL as applied to the handwriting use case. To run the Matlab tests for handwriting, get the [original repository](https://github.com/brendenlake/BPL) and run the code as described there.
 
