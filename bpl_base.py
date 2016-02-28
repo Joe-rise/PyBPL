@@ -22,6 +22,12 @@ class BPLBase(object):
         self.add_variance = add_variance
 
     def generate_type(self):
+        """
+        Forward model to generate a type given a Program instance.
+
+        :return:
+          genera_token function handle
+        """
         type_params = {'num_parts': self.sample_number_parts(), 'relatons': [], 'strokes': []}
         for i in xrange(type_params['num_parts']):
             num_subparts = self.sample_number_subparts()
@@ -31,10 +37,12 @@ class BPLBase(object):
             type_params['relations'].append(self.sample_relations(type_params))
 
         def generate_token(type_params):
+            # TODO: generalize. Trajectories, locations are specific to motor programs and spatial cases
             trajectories = []
             locations = []
             for part in xrange(type_params['num_parts']):
                 if self.add_variance:
+                    # TODO: generalize. Strokes are specific to handwriting case.
                     type_params['strokes'][part] = self.sample_variance(type_params['strokes'][part])
                 locations.append(self.sample_start_location(type_params, part))
                 trajectories.append(self.compose_trajectory(type_params, part))
@@ -59,7 +67,7 @@ class BPLBase(object):
         #TODO: sample subpart sequence based on type_params
         return 0
 
-    def sample_relatons(self, type_params):
+    def sample_relations(self, type_params):
         #TODO: sample relations based on type_params
         # In some use cases relations may take on a different meaning; relations types will need to have well-defined
         # behavior
