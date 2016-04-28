@@ -42,8 +42,11 @@ The original BPL paper can be found on Science:
 
 ###TODOs
 -Base BPL class, with tests
+
 -Base parser class (for learning primitives), with tests
+
 -Tests for base class
+
 -Data formatters (text, time series, etc)
 
 -Helper methods and utility classes as needed
