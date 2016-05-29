@@ -1,5 +1,5 @@
 # PyBPL
-
+[![Code Climate](https://codeclimate.com/github/MaxwellRebo/PyBPL/badges/gpa.svg)](https://codeclimate.com/github/MaxwellRebo/PyBPL)
 [![Join the chat at https://gitter.im/MaxwellRebo/PyBPL](https://badges.gitter.im/MaxwellRebo/PyBPL.svg)](https://gitter.im/MaxwellRebo/PyBPL?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Bayesian Program Learning toolkit in Python
 
@@ -42,8 +42,11 @@ The original BPL paper can be found on Science:
 
 ###TODOs
 -Base BPL class, with tests
+
 -Base parser class (for learning primitives), with tests
+
 -Tests for base class
+
 -Data formatters (text, time series, etc)
 
 -Helper methods and utility classes as needed
