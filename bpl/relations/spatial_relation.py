@@ -1,4 +1,4 @@
-from relations.relation import Relation
+from bpl.relations import Relation
 
 
 class SpatialRelation(Relation):
