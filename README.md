@@ -25,6 +25,10 @@ Do:
 pip install -r requirements.txt
 ```
 
+The following system packages are are also required (the command below should work on Ubuntu/Linux):
+
+`sudo apt-get install g++ python-dev liblapack-dev gfortran`
+
 ###Testing
 
 Do:
