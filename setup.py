@@ -12,6 +12,10 @@ setup(
     packages=find_packages(),
     install_requires=[
         'numpy',
-        'nose'
+        'nose',
+        'pymc3'
+    ],
+    dependency_links=[
+        'git+https://github.com/pymc-devs/pymc3.git#egg=pymc3-3.0'
     ]
 )
