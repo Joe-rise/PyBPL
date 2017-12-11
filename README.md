@@ -17,8 +17,8 @@ Please see the [wiki](https://github.com/MaxwellRebo/PyBPL/wiki) for details.
 
 
 ### Dependencies
-numpy
-nose
+* `numpy`
+* `nose`
 
 Do:
 
